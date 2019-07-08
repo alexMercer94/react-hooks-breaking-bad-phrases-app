@@ -15,7 +15,7 @@ body {
   min-height: 100%;
   background-position: center 80px, center center;
   background-repeat:no-repeat;
-  background-size: 400px, 100% 100%;
+  background-size: 380px, 100% 150%;
   display: flex;
   align-items: flex-end;
 }
@@ -31,7 +31,7 @@ body {
 .contenedor {
   display: flex;
   align-items: center;
-  padding-top: 10rem;
+  padding-top: 16rem;
   flex-direction: column;
 }
 
@@ -40,6 +40,7 @@ body {
   border-radius: .5rem;
   background-color: rgba(255,255,255,1);
   max-width:800px;
+  margin-top: 5rem;
 }
 .frase h1::before {
   content: open-quote;
